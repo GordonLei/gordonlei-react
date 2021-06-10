@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/gordonlei-react/static/css/main.640a08a2.chunk.css",
-    "main.js": "/gordonlei-react/static/js/main.bb88fcf4.chunk.js",
-    "main.js.map": "/gordonlei-react/static/js/main.bb88fcf4.chunk.js.map",
+    "main.css": "/gordonlei-react/static/css/main.e03d9519.chunk.css",
+    "main.js": "/gordonlei-react/static/js/main.b30c3b1d.chunk.js",
+    "main.js.map": "/gordonlei-react/static/js/main.b30c3b1d.chunk.js.map",
     "runtime-main.js": "/gordonlei-react/static/js/runtime-main.ac29d7c0.js",
     "runtime-main.js.map": "/gordonlei-react/static/js/runtime-main.ac29d7c0.js.map",
     "static/js/2.f3439f70.chunk.js": "/gordonlei-react/static/js/2.f3439f70.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.5bbdb3b1.chunk.js": "/gordonlei-react/static/js/3.5bbdb3b1.chunk.js",
     "static/js/3.5bbdb3b1.chunk.js.map": "/gordonlei-react/static/js/3.5bbdb3b1.chunk.js.map",
     "index.html": "/gordonlei-react/index.html",
-    "static/css/main.640a08a2.chunk.css.map": "/gordonlei-react/static/css/main.640a08a2.chunk.css.map",
+    "static/css/main.e03d9519.chunk.css.map": "/gordonlei-react/static/css/main.e03d9519.chunk.css.map",
     "static/js/2.f3439f70.chunk.js.LICENSE.txt": "/gordonlei-react/static/js/2.f3439f70.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ac29d7c0.js",
     "static/js/2.f3439f70.chunk.js",
-    "static/css/main.640a08a2.chunk.css",
-    "static/js/main.bb88fcf4.chunk.js"
+    "static/css/main.e03d9519.chunk.css",
+    "static/js/main.b30c3b1d.chunk.js"
   ]
 }
