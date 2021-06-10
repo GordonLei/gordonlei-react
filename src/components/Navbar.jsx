@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="bg-white shadow">
+    <nav className="bg-white shadow sticky top-0 z-50">
         <div className="container mx-auto pt-4 pb-4 pl-4 pr-0">
             
             <div className="w-full md:w-auto md:flex-grow md:flex md:items-center">

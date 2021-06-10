@@ -1,17 +1,18 @@
 import React from "react";
 import RightCard from "./RightCard";
-import data from "../json/Completed.json"
+import data from "../json/Completed.js";
 
 function Completed() {
   return (
-    <section>
-      <div className="text-center">
+    <section className="mx-8 lg:mx-80">
+      <div className="text-center font-semibold text-3xl text-white">
         Completed Projects
       </div>
-      <div>
-      {data.map((aProject) => {
+      <div className="mx-8 flex flex-col-reverse">
+      {data.map((aProject,index) => {
         return (
           <RightCard
+            key={index}
             title = {aProject.title}
             technology = {aProject.technology}
             subheader = {aProject.subheader}
@@ -19,6 +20,9 @@ function Completed() {
             demoLink = {aProject.demoLink}
             githubLink = {aProject.githubLink}
             images = {aProject.images}
+            headerTextColor = {"text-white"}
+            subheaderTextColor = {"text-black"}
+            desTextColor = {"text-hammerhead_teal"}
           />
         );
         })

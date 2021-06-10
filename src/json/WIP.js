@@ -1,4 +1,4 @@
-[
+const WIP = [
     {
         "title": "Augmented Library",
         "technology": ["Swift", "Python", "A*", "ARKit", "Firebase"],
@@ -7,5 +7,16 @@
         "demoLink": "",
         "githubLink": "https://github.com/Augmented-Library/Augmented-Library",
         "images": []
-    }
-]
+    },
+    {
+        "title": "Portfolio",
+        "technology": ["Node.js", "React", "TailwindCSS"],
+        "subheader": "My personal website",
+        "description": "My personal website for my portfolio. Will be working on making the website look good for different viewports as well as color palettes!",
+        "demoLink": "",
+        "githubLink": "https://github.com/Augmented-Library/Augmented-Library",
+        "images": [process.env.PUBLIC_URL + '/img/website.png']
+    },
+];
+
+export default WIP;

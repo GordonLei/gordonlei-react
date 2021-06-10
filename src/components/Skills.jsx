@@ -1,95 +1,73 @@
 import React from "react";
 import SkillsCard from "./SkillsCard";
+import Languages from "../json/Languages.js";
+import WD from "../json/WebDevelopment.js";
+import FL from "../json/FrameworksLibraries.js";
+import Misc from "../json/Misc.js";
 
 function Skills() {
   return (
-    <section className = ""> 
+    <section className=""> 
         <div>
-            <div>
+            <div className="text-center font-semibold text-3xl text-white">
                 Skills
             </div>
-            <div>
+            <div className="m-8 text-center text-arch_alpha_mod text-lg">
             Below are the skills I possess. I'm always trying to learn 
             new techniques or technologies whether it be for the 
             frontend or the backend. 
             </div>
         </div>
         <section>
-            <div>Languages</div>
-            <div className = "flex flex-col sm:flex-row justify-center">
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/python.png'}
-                    hoverText="Python3"
-                />
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/cpp_logo.png'}
-                    hoverText="C++"
-                />
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/js.png'}
-                    hoverText="Javascript"
-                />
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/swift.svg'}
-                    hoverText="Swift"
-                />
+            <div className="text-center font-semibold text-2xl text-white">Languages</div>
+            <div className = "flex flex-col sm:flex-row justify-center md:space-x-20">
+                {Languages.map((each, index) => {
+                    return (
+                    <SkillsCard
+                        key={index}
+                        imgSrc = {each.imgSrc}
+                        hoverText = {each.hoverText}
+                    />
+                    );
+                })}
             </div>
-            <div>Web Development</div>
-            <div className = "flex flex-col sm:flex-row justify-center">
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/html.png'}
-                    hoverText="HTML"
-                />
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/css.png'}
-                    hoverText="CSS"
-                />
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/nodejs.png'}
-                    hoverText="Node.js"
-                />
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/react.png'}
-                    hoverText="React"
-                />
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/express.png'}
-                    hoverText="Express"
-                />
+            <div className="text-center font-semibold text-2xl text-white">Web Development</div>
+            <div className = "flex flex-col sm:flex-row justify-center md:space-x-20">
+                {WD.map((each,index) => {
+                    return (
+                    <SkillsCard
+                        key={index}
+                        imgSrc = {each.imgSrc}
+                        hoverText = {each.hoverText}
+                    />
+                    );
+                })}
+                
             </div>
-            <div>Frameworks and Libaries</div>
-            <div className = "flex flex-col sm:flex-row justify-center">
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/bootstrap.png'}
-                    hoverText="Bootstrap"
-                />
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/tailwindCSS.png'}
-                    hoverText="TailwindCSS"
-                />
+            <div className="text-center font-semibold text-2xl text-white">Frameworks and Libaries</div>
+            <div className = "flex flex-col sm:flex-row justify-center md:space-x-20">
+                {FL.map((each,index) => {
+                    return (
+                    <SkillsCard
+                        key={index}
+                        imgSrc = {each.imgSrc}
+                        hoverText = {each.hoverText}
+                    />
+                    );
+                })}
             </div>
-            <div>Misc.</div>
-            <div className = "flex flex-col sm:flex-row justify-center">
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/unity.png'}
-                    hoverText="Unity"
-                />
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/postgresql.png'}
-                    hoverText="PostgreSQL"
-                />
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/mongoDB.png'}
-                    hoverText="MongoDB"
-                />
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/firebase.png'}
-                    hoverText="FireBase"
-                />
-                <SkillsCard 
-                    imgSrc= {process.env.PUBLIC_URL + '/img/favicons/github.png'}
-                    hoverText="GitHub"
-                />
+            <div className="text-center font-semibold text-2xl text-white">Misc.</div>
+            <div className = "flex flex-col sm:flex-row justify-center md:space-x-20">
+                {Misc.map((each,index) => {
+                    return (
+                    <SkillsCard
+                        key={index}
+                        imgSrc = {each.imgSrc}
+                        hoverText = {each.hoverText}
+                    />
+                    );
+                })}
+                
             </div>
         </section>
     </section>

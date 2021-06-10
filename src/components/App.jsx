@@ -11,15 +11,49 @@ import Skills from "./Skills"
 function App() {
   return (
     
-    <div> 
+    <div className=""> 
       <Navbar />
-      <Face />
-      <About />
-      <Skills />
-      <Experience />
-      <WIP />
-      <Completed />
-      <Resume />
+      <div className="bg-metropolis_base p-4">
+        <Face />
+        <div id="about"></div>
+        <br></br>
+        <br></br>
+        <About />
+      </div>
+      <div className="bg-arch_base p-4">
+        <div id="skills"></div>
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <Skills />
+      </div>
+      <div className="bg-playground_base p-4">
+        <div id="experience"></div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <Experience />
+      </div>
+      <div className="bg-metropolis_base p-4">
+        <div id="WIP"></div>
+        <WIP />
+      </div>
+
+      <div className="bg-arch_base p-4">
+        <div id="completed"></div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <Completed /> 
+      </div>
+      <div className="bg-metropolis_base p-4">
+        <div id="resume">
+        <br></br>
+        <Resume />
+        </div>
+      </div>
       <Footer />
     </div>
   );
