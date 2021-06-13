@@ -13,8 +13,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
@@ -38,7 +36,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://gordonlei.github.io/gordonlei-react/",
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.1",
     "@types/autoprefixer": "^10.2.0",
