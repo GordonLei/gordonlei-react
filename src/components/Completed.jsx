@@ -25,10 +25,8 @@ function Completed() {
               desTextColor={"text-hammerhead_teal"}
             />
           );
-        })
-        }
+        })}
       </div>
-
     </section>
   );
 }

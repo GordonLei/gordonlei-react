@@ -1,6 +1,6 @@
 import React from "react";
 import RightCard from "./RightCard";
-import data from "../json/WIP.js"
+import data from "../json/WIP.js";
 
 function WIP() {
   return (
@@ -28,10 +28,8 @@ function WIP() {
               desTextColor={"text-metropolis_alpha_teal"}
             />
           );
-        })
-        }
+        })}
       </div>
-
     </section>
   );
 }
