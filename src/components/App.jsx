@@ -6,12 +6,11 @@ import WIP from "./WIP";
 import Completed from "./Completed";
 import Resume from "./Resume";
 import Footer from "./Footer";
-import Skills from "./Skills"
+import Skills from "./Skills";
 
 function App() {
   return (
-    
-    <div className=""> 
+    <div className="">
       <Navbar />
       <div className="bg-metropolis_base p-4">
         <Face />
@@ -46,12 +45,12 @@ function App() {
         <br></br>
         <br></br>
         <br></br>
-        <Completed /> 
+        <Completed />
       </div>
       <div className="bg-metropolis_base p-4">
         <div id="resume">
-        <br></br>
-        <Resume />
+          <br></br>
+          <Resume />
         </div>
       </div>
       <Footer />

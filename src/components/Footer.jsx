@@ -5,15 +5,15 @@ function Footer() {
     <section className="my-8 py-4 px-8">
       <footer className="flex flex-col md:flex-row">
         <div className="flex-1 items-center px-16 text-xl text-justify py-4">
-          <a className="text-blue-400 " href="mailto: lei.gordon@nyu.edu">
+          <a className="text-blue-400 " href="mailto: glei@andrew.cmu.edu">
             {" "}
-            lei.gordon@nyu.edu
+            E-mail: glei@andrew.cmu.edu
           </a>
         </div>
         <div className="flex items-center float-right">
           <a
             className="text-blue-500 border-2 rounded-xl py-2 px-4"
-            href="https://github.com/GordonLei/gordonlei-react/tree/main"
+            href="https://github.com/GordonLei/gordonlei-react"
           >
             Source code
           </a>
