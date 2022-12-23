@@ -8,17 +8,13 @@ function ImageCarousel(props) {
     Source of Carousel: https://tailwind-elements.com/docs/standard/components/carousel/  
     */
   return (
-    <div
-      id={id_name}
-      className="carousel slide relative"
-      data-bs-ride="carousel"
-    >
+    <div id={id_name} className="carousel slide relative">
       <div className="carousel-inner relative w-full overflow-hidden">
         {props.images.map((imagePath, index) => {
           console.log(imagePath, index);
           if (index === 0) {
             return (
-              <div className="carousel-item active float-left w-full">
+              <div className="carousel-item active float-left w-full  h-full">
                 <img
                   src={imagePath}
                   className="block w-full"
