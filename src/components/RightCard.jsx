@@ -1,4 +1,5 @@
 import React from "react";
+import ImageCarousel from "./ImageCarousel";
 
 function RightCard(props) {
   return (
@@ -56,7 +57,12 @@ function RightCard(props) {
       </div>
 
       <div className="sm:w-1/2 flex items-stretch m-4">
-        {props.images.map((anImage, index) => {
+        <div className="">
+          <ImageCarousel images={props.images} name={props.title} />
+        </div>
+
+        {/*
+        props.images.map((anImage, index) => {
           return (
             <img
               className="self-stretch border-2 border-white h-full"
@@ -65,7 +71,8 @@ function RightCard(props) {
               key={index}
             ></img>
           );
-        })}
+        })
+      */}
       </div>
     </section>
   );
