@@ -1,61 +1,72 @@
-import Navbar from "./Navbar";
-import Face from "./Face";
-import About from "./About";
-import Experience from "./Experience";
-import WIP from "./WIP";
-import Completed from "./Completed";
-import Resume from "./Resume";
-import Footer from "./Footer";
-import Skills from "./Skills";
+import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "../routes/home";
+import About from "../routes/about";
+import CompletedProjects from "../routes/completedProjects";
+import WipProjects from "../routes/wipProjects";
+import Resume from "../routes/resume";
+import Skills from "../routes/skills";
+import OldSPA from "../components/OldSPA";
+/*
+<Router>
+      <div>
+        <Routes>
+          <Route path="/">
+            <Home />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/completedProjects">
+            <CompletedProjects />
+          </Route>
+          <Route path="/wipProjects">
+            <WipProjects />
+          </Route>
+          <Route path="/resume">
+            <Resume />
+          </Route>
+          <Route path="/skills">
+            <Skills />
+          </Route>
+          <Route path="/oldSPA">
+            <OldSPA />
+          </Route>
+        </Routes>
+      </div>
+    </Router>
+*/
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />
+  },
+  {
+    path: "/About",
+    element: <About />
+  },
+  {
+    path: "/CompletedProjects",
+    element: <CompletedProjects />
+  },
+  {
+    path: "/WipProjects",
+    element: <WipProjects />
+  },
+  {
+    path: "/Resume",
+    element: <Resume />
+  },
+  {
+    path: "/Skills",
+    element: <Skills />
+  },
+  {
+    path: "/OldSPA",
+    element: <OldSPA />
+  }
+]);
 
-function App() {
-  return (
-    <div className="">
-      <Navbar />
-      <div className="bg-metropolis_base p-4">
-        <Face />
-        <div id="about"></div>
-        <br></br>
-        <br></br>
-        <About />
-      </div>
-      <div className="bg-arch_base p-4">
-        <div id="skills"></div>
-        <br></br>
-        <br></br>
-        <br></br>
-
-        <Skills />
-      </div>
-      <div className="bg-playground_base p-4">
-        <div id="experience"></div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <Experience />
-      </div>
-      <div className="bg-metropolis_base p-4">
-        <div id="WIP"></div>
-        <WIP />
-      </div>
-
-      <div className="bg-arch_base p-4">
-        <div id="completed"></div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <Completed />
-      </div>
-      <div className="bg-metropolis_base p-4">
-        <div id="resume">
-          <br></br>
-          <Resume />
-        </div>
-      </div>
-      <Footer />
-    </div>
-  );
+export default function App() {
+  return <RouterProvider router={router} />;
 }
-
-export default App;
