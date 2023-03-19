@@ -1,7 +1,11 @@
 import Layout from "./layout";
-
+import HomeInfo from "../components/routeInfo/homeInfo";
 function Home() {
-  return <Layout></Layout>;
+  return (
+    <Layout>
+      <HomeInfo />
+    </Layout>
+  );
 }
 
 export default Home;

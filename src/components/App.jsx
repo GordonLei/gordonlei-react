@@ -7,6 +7,7 @@ import WipProjects from "../routes/wipProjects";
 import Resume from "../routes/resume";
 import Skills from "../routes/skills";
 import OldSPA from "../components/OldSPA";
+import Experience from "../routes/experience";
 /*
 <Router>
       <div>
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
   {
     path: "/OldSPA",
     element: <OldSPA />
+  },
+  {
+    path: "/Experience",
+    element: <Experience />
   }
 ]);
 

@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/updatedPageComponents/Navbar";
 import Footer from "../components/Footer";
 function Layout({ children }) {
   return (
@@ -27,11 +27,7 @@ function Layout({ children }) {
             />
           </div>
           <div className="font-bold text-4xl p-2 "> Gordon Lei </div>
-          <div className="font-medium text-2xl p-2 text-metropolis_alpha_yellow">
-            {" "}
-            Graduate Student @ Carnegie Mellon University Silicon Valley{" "}
-          </div>
-          <div className="font-normal text-xl p-2 text-metropolis_alpha_red grid grid-cols-1 divide-y-4">
+          <div className="font-normal text-xl p-2 grid grid-cols-1 divide-y-4">
             {" "}
             Email:
             <a className="text-blue-400 " href="mailto: glei@andrew.cmu.edu">
@@ -39,10 +35,20 @@ function Layout({ children }) {
               glei@andrew.cmu.edu
             </a>
           </div>
+          <hr />
+          <div>
+            <div>About</div>
+            <div>
+              {" "}
+              Hi! I am Gordon Lei, a current Graduate Student pursuing a Masters
+              in Software Engineering at Carnegie Mellon @ Silicon Valley. I am
+              a NYU Tandon and Stuyvesant High School alumni
+            </div>
+          </div>
         </div>
         {/* Whatever replacable content  */}
         <div className="col-span-2">
-          <div className="border border-slate-500  mx-4">{children}</div>
+          <div className="border border-slate-500  mx-4 p-4">{children}</div>
         </div>
       </div>
       <Footer />

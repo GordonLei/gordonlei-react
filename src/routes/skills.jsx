@@ -1,12 +1,12 @@
-import Skills from "../components/Skills";
+import SkillsInfo from "../components/routeInfo/skillsInfo";
 import Layout from "./layout";
 
-function Home() {
+function Skills() {
   return (
     <Layout>
-      <Skills />
+      <SkillsInfo />
     </Layout>
   );
 }
 
-export default Home;
+export default Skills;
