@@ -7,8 +7,8 @@ import Misc from "../../json/Misc.js";
 function SkillsInfo() {
   return (
     <>
-      <div>About My Skills / Tech Stack</div>
-      <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+      <div className="font-bold text-2xl">About My Skills / Tech Stack</div>
+      <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
       <section>
         <div className="text-center font-semibold text-2xl ">Languages</div>
         <div className="flex flex-col sm:flex-row justify-center md:space-x-20">

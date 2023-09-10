@@ -4,9 +4,9 @@ function Layout({ children }) {
   return (
     <main className="">
       <Navbar />
-      <div className="border border-red-400 p-4 mx-64 mt-16">
-        Personal website is under construction! To visit how it looked like
-        before, follow this link:{" "}
+      {/*
+        <div className="border border-red-400 p-4 mx-auto max-w-lg mt-16">
+        Prior version of personal website:{" "}
         <a
           href="/OldSPA"
           className="text-sky-400 text-arch_alpha_mod underline"
@@ -15,28 +15,32 @@ function Layout({ children }) {
           Previous Website Layout
         </a>
       </div>
+    */}
 
-      <div className="grid grid-cols-3 my-16">
+      <div className="grid grid-cols-3 my-16 p-4">
         {/* About me section */}
         <div>
-          <div className="w-auto mx-8">
+          <div className="w-auto">
             <img
-              className="h-80"
+              className="h-80 mx-auto"
               src={process.env.PUBLIC_URL + "/img/profile.png"}
               alt="profile"
             />
           </div>
-          <div className="font-bold text-4xl p-2 "> Gordon Lei </div>
-          <div className="font-normal text-xl p-2 grid grid-cols-1 divide-y-4">
-            {" "}
-            Email:
-            <a className="text-blue-400 " href="mailto: glei@andrew.cmu.edu">
+          <div className="text-center">
+            <div className="font-bold text-4xl"> Gordon Lei </div>
+            <div className="font-normal text-xl grid grid-cols-1 divide-y-4">
               {" "}
-              glei@andrew.cmu.edu
-            </a>
+              Email:
+              <a className="text-blue-400 " href="mailto: glei@andrew.cmu.edu">
+                {" "}
+                glei@andrew.cmu.edu
+              </a>
+            </div>
           </div>
+
           <hr />
-          <div>
+          <div className="">
             <div>About</div>
             <div>
               {" "}

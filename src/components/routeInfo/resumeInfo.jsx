@@ -3,8 +3,8 @@ import React from "react";
 function ResumeInfo() {
   return (
     <>
-      <div>Resume</div>
-      <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+      <div className="font-bold text-2xl">Resume</div>
+      <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
       <div className="flex justify-center">
         <iframe
           className=""

@@ -5,8 +5,8 @@ import data from "../../json/Completed";
 function CompletedProjectsInfo() {
   return (
     <>
-      <div>Completed Projects</div>
-      <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+      <div className="font-bold text-2xl">Completed Projects</div>
+      <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
       <div className="mx-8 flex flex-col-reverse">
         {data.map((aProject, index) => {
           return (

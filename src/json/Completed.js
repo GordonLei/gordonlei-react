@@ -17,8 +17,8 @@ const completed = [
       process.env.PUBLIC_URL + "/img/bindingofrug/rug_7.png",
       process.env.PUBLIC_URL + "/img/bindingofrug/rug_8.png",
       process.env.PUBLIC_URL + "/img/bindingofrug/rug_9.png",
-      process.env.PUBLIC_URL + "/img/bindingofrug/rug_10.png",
-    ],
+      process.env.PUBLIC_URL + "/img/bindingofrug/rug_10.png"
+    ]
   },
 
   {
@@ -37,8 +37,8 @@ const completed = [
       process.env.PUBLIC_URL + "/img/tacocat/tacocat_5.png",
       process.env.PUBLIC_URL + "/img/tacocat/tacocat_6.png",
       process.env.PUBLIC_URL + "/img/tacocat/tacocat_7.png",
-      process.env.PUBLIC_URL + "/img/tacocat/tacocat_8.png",
-    ],
+      process.env.PUBLIC_URL + "/img/tacocat/tacocat_8.png"
+    ]
   },
   {
     title: "Typepacer",
@@ -48,7 +48,7 @@ const completed = [
       "SQLite",
       "AJAX",
       "JavaScript",
-      "Bootstrap",
+      "Bootstrap"
     ],
     subheader: "A Typing Game",
     description:
@@ -61,8 +61,8 @@ const completed = [
       process.env.PUBLIC_URL + "/img/typepacer/typepacer_3.png",
       process.env.PUBLIC_URL + "/img/typepacer/typepacer_4.png",
       process.env.PUBLIC_URL + "/img/typepacer/typepacer_5.png",
-      process.env.PUBLIC_URL + "/img/typepacer/typepacer_6.png",
-    ],
+      process.env.PUBLIC_URL + "/img/typepacer/typepacer_6.png"
+    ]
   },
   {
     title: "SProject01Data",
@@ -82,8 +82,8 @@ const completed = [
       process.env.PUBLIC_URL + "/img/stats/stats_7.png",
       process.env.PUBLIC_URL + "/img/stats/stats_8.png",
       process.env.PUBLIC_URL + "/img/stats/stats_9.png",
-      process.env.PUBLIC_URL + "/img/stats/stats_10.png",
-    ],
+      process.env.PUBLIC_URL + "/img/stats/stats_10.png"
+    ]
   },
   {
     title: "Polyforms",
@@ -104,8 +104,8 @@ const completed = [
       process.env.PUBLIC_URL + "/img/flash_polyforms/polyforms_8.png",
       process.env.PUBLIC_URL + "/img/flash_polyforms/polyforms_9.png",
       process.env.PUBLIC_URL + "/img/flash_polyforms/polyforms_10.png",
-      process.env.PUBLIC_URL + "/img/flash_polyforms/polyforms_11.png",
-    ],
+      process.env.PUBLIC_URL + "/img/flash_polyforms/polyforms_11.png"
+    ]
   },
   {
     title: "Return of the King",
@@ -119,8 +119,8 @@ const completed = [
     images: [
       process.env.PUBLIC_URL + "/img/platformer/platformer_1.gif",
       process.env.PUBLIC_URL + "/img/platformer/platformer_2.gif",
-      process.env.PUBLIC_URL + "/img/platformer/platformer_3.gif",
-    ],
+      process.env.PUBLIC_URL + "/img/platformer/platformer_3.gif"
+    ]
   },
   {
     title: "Space Game",
@@ -134,8 +134,8 @@ const completed = [
     images: [
       process.env.PUBLIC_URL + "/img/space_game/space_1.gif",
       process.env.PUBLIC_URL + "/img/space_game/space_2.gif",
-      process.env.PUBLIC_URL + "/img/space_game/space_3.gif",
-    ],
+      process.env.PUBLIC_URL + "/img/space_game/space_3.gif"
+    ]
   },
   {
     title: "Augmented Library",
@@ -145,7 +145,7 @@ const completed = [
       'Augmented Library is a project team dedicated to making tools and services for NYU\'s Dibner Library. The goal of the team is to make applications that can incorporate Augmented Reality in order to enhance the library experience. The two main projects that we are currently working on include are "Interactive Flyers" and "Path-Finding". The goal of the Interactive Flyers project is to create scannable images similar to QR codes (but looks visually more appealing or related to the university) that will act as a billboard flyer. By scanning the image, the user will be prompted with an AR experience explaining the details of the flyer. The goal of the Path-Finding team is to use the A* algorithmn as a basis to create a tool that can be used by students to navigate to specific places within the library',
     demoLink: "",
     githubLink: "https://github.com/Augmented-Library/Augmented-Library",
-    images: [process.env.PUBLIC_URL + "/img/augmentedLibrary/auglib_2.gif"],
+    images: [process.env.PUBLIC_URL + "/img/augmentedLibrary/auglib_2.gif"]
   },
   {
     title: "Candy Cannival",
@@ -155,7 +155,7 @@ const completed = [
       'This was a group final project for the class CS-UY 4553-B Game Design. This game consists of 7 playable levels, each with increasing difficulty while having characters and environments themed after candy (as the name of the game suggests). The objective of the game is to beat all the enemies of the current level to advance to the next level. To beat an enemy, the player can manually punch enemies with varying health to beat the enemy; however the player can choose to block an enemy attack to stun the enemy and if the player punches the enemy then (this system is mimic our original idea of a fighting game where the players are rewarded for predicting an enemy\'s attack and blocking it thereby allowing them to "punish" the enemy for being predictable), they are rewarded with a special item that has different effects depending on the enemy you defeat. There are four different enemies: a peppermint enemy that is the standard enemy that punches you, an M&M that shoots projectiles at you, a lollipop that throws other lollipops at you, and a butterscotch enemy that acts like a "bull" that charges at you and is confused if it collides with a wall or another object. To aid the player, there are macarons scattered around the map that gives the player a shield. The player also can look at a mini-map that details where the macarons are on the map and how the enemies are moving and can also move the camera to free-roam the map and see their surroundings. ',
     demoLink: "https://nekonek0.itch.io/candy-cann",
     githubLink: "",
-    images: [process.env.PUBLIC_URL + "/img/candy_cannival/candy_7.gif"],
+    images: [process.env.PUBLIC_URL + "/img/candy_cannival/candy_7.gif"]
   },
   {
     title: "PCGRL for Angry Birds",
@@ -165,7 +165,16 @@ const completed = [
       'Using the OpenAI Gym Framework "PCGRL" and adapting it to procedurely generate levels using reinforcement learning agents. Work in progress as it randomly places blocks and does not adhere to physics. ',
     demoLink: "",
     githubLink: "https://github.com/GordonLei/PCGRL-AngryBirds",
-    images: [process.env.PUBLIC_URL + "/img/pcgrl/1.0_gif.gif"],
+    images: [process.env.PUBLIC_URL + "/img/pcgrl/1.0_gif.gif"]
+  },
+  {
+    title: "Spell Scuffle",
+    technology: ["Game Maker Studio"],
+    subheader: "Game Development Studio I final project",
+    description: "",
+    demoLink: "",
+    githubLink: "https://github.com/GordonLei/Spell_Scuffle",
+    images: []
   },
   {
     title: "Lunchify",
@@ -181,9 +190,46 @@ const completed = [
       process.env.PUBLIC_URL + "/img/lunchify/lunchify_4.png",
       process.env.PUBLIC_URL + "/img/lunchify/lunchify_5.png",
       process.env.PUBLIC_URL + "/img/lunchify/lunchify_6.png",
-      process.env.PUBLIC_URL + "/img/lunchify/lunchify_7.png",
-    ],
+      process.env.PUBLIC_URL + "/img/lunchify/lunchify_7.png"
+    ]
   },
+  {
+    title: "Blizzard Emergency Social Network",
+    technology: ["Node.js", "Mapbox API", "Socket.io"],
+    subheader: "Foundation of Software Engineering Group Project",
+    description: `
+      Group project that emulates a social network that is usable during a snow storm. 
+      Had basic social network capabilities such as a public-posting board, role-based actions, login and logout capabilites.
+      Unique featues include pinning location on a map to request for help, a request board with multiple viewing options (public, private, closed), and private groups.
+      Used HTTPS and Argon2 to increase confidentiality and security in account creation and login.
+      `,
+    demoLink: "",
+    images: []
+  },
+  {
+    title: "Mockly",
+    technology: ["Node.js", "React", "Paypal_API", "MongoDB"],
+    subheader: "Software Archicture and Design Group Project",
+    description: `Group project where users can "hire" others for a paid interview. 
+      Used Service-Oriented-Architecture to seperate different services (ex. scheduling, profiles, feedback)
+      into different features. Used the Decorator design pattern to shape user's receiving and outgoing feedback to suit their needs.
+      `,
+    demoLink: "",
+    images: []
+  },
+  {
+    title: "Multi-Label Dataset Classification on Code Smell",
+    technology: ["Python 3", "Java", "Scikit-Learn", "Weka"],
+    subheader: "Data Science for Software Engineering",
+    description: `
+      Created Python and Java scripts to create Machine Learning Models to predict code smells 
+      in dataset provided by Fontana et al.'s research paper "Comparing and Experimenting Machine Learning Techniques
+for Code Smell Detection". Created 20+ models through various means (ex. hyperparameter tuning, bagging, classifier chain, etc.)
+and different  model types (ex. J-48 unnpruned, Decision Trees, Neural Network, etc.) to create the best model at detecting code smells. 
+      `,
+    demoLink: "",
+    images: []
+  }
 ];
 
 export default completed;

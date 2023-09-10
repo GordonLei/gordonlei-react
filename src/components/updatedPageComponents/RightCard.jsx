@@ -21,20 +21,22 @@ function RightCard(props) {
         {/* Buttons */}
         <div className="flex absolute bottom-0 left-0 ">
           <div className="my-4 items-end">
-            <a
-              className="place-content-end content-end ml-4 text-blue-500 hover:text-gray-700 duration-500 ease-in rounded-xl bg-green-100 font-bold border-2 px-4 py-2"
-              href={props.githubLink}
-            >
-              GitHub Link
-            </a>
+            {props.githubLink && props.githubLink.length > 0 && (
+              <a
+                className="place-content-end content-end ml-4 text-blue-500 hover:text-gray-700 duration-500 ease-in rounded-xl bg-green-100 font-bold border-2 px-4 py-2"
+                href={props.githubLink}
+              >
+                GitHub Link
+              </a>
+            )}
           </div>
         </div>
 
-        {props.demoLink.length > 0 && (
+        {props.demoLink && props.demoLink.length > 0 && (
           <div className="flex absolute bottom-0 right-0 ">
             <div className="my-4 items-end">
               <a
-                className="place-content-end content-end ml-4 text-blue-500 hover:text-gray-700 duration-500 ease-in rounded-xl bg-green-100 font-bold border-2 px-4 py-2"
+                className="place-content-end content-end mr-4 text-blue-500 hover:text-gray-700 duration-500 ease-in rounded-xl bg-green-100 font-bold border-2 px-4 py-2"
                 href={props.demoLink}
               >
                 Demo Link

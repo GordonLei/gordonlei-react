@@ -10,6 +10,15 @@ function Navbar() {
             <li>
               <a
                 className="block px-4 py-1 md:p-2 lg:px-4 hover:text-green-500"
+                href="/"
+                title="v2=website"
+              >
+                v2-website
+              </a>
+            </li>
+            <li>
+              <a
+                className="block px-4 py-1 md:p-2 lg:px-4 hover:text-green-500"
                 href="#about"
                 title="About"
               >
